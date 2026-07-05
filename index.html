@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Yejin Kim</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GitHub / LinkedIn 아이콘 -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- 상단 -->
+    <header class="header">
+      <a
+        href="https://connect.or.kr/"
+        target="_blank"
+        class="logo-link"
+        aria-label="NAVER CONNECT 공식 사이트로 이동"
+      >
+        <img
+          src="images/naver-connect.png"
+          alt="NAVER CONNECT"
+          class="logo"
+        />
+      </a>
+
+      <nav class="nav">
+        <button type="button" class="nav-button" data-page="project">
+          project
+        </button>
+        <button type="button" class="nav-button" data-page="certification">
+          certification
+        </button>
+        <button type="button" class="nav-button" data-page="experience">
+          experience
+        </button>
+      </nav>
+    </header>
+
+    <!-- 프로필 화면 -->
+    <main class="content active" id="home">
+      <section class="profile-section">
+        <img
+          src="images/profile.jpg"
+          alt="Yejin Kim profile"
+          class="profile-img"
+        />
+
+        <section class="profile-info">
+          <h1>Yejin Kim</h1>
+
+          <div class="basic-info">
+            <p>충북대학교 소프트웨어학과</p>
+            <p>+821056433903</p>
+            <p>dpwb12@naver.com</p>
+          </div>
+
+          
+        </section>
+      </section>
+    </main>
+
+    <!-- 준비중 화면 -->
+    <main class="content preparing" id="preparing">
+      <section class="preparing-box">
+        <p class="preparing-label" id="pageLabel">project</p>
+        <h2>준비중입니다</h2>
+        <p class="preparing-text">
+          해당 페이지는 아직 준비 중입니다.
+        </p>
+
+        <button type="button" class="back-button" id="backButton">
+          back to profile
+        </button>
+      </section>
+    </main>
+
+    <!-- 하단 -->
+    <footer class="footer">
+      <div class="footer-icons">
+        <a
+          href="https://github.com/jennienn"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/yejin-kim-140795398/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+
+      <p class="copyright">
+        © 2026 NaverConnect x Seoul National University AI Agent Challenge
+      </p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
